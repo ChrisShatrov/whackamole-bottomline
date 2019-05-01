@@ -17,58 +17,70 @@
             <img class="main-logo" src="img/logo.png"/>
             <span class="app-header">The Whac-A-Mole Game</span>
 
-            <span class="points-container">
-                    Points:
-                    <span id="points">0</span>
-            </span>
+           <div id="active-game-container">
 
-            <div class="row">
-                    <div class="outer">
-                      <div class="inner">
-                        <img class="lousPic" id="lois1" src="img/Lois.png">
+                <span class="points-container">
+                        Points:
+                        <span id="points">0</span>
+                </span>
+    
+                <div class="row">
+                        <div class="outer">
+                          <div class="inner">
+                            <img class="lousPic" id="lois1" src="img/Lois.png">
+                          </div>
+                        </div>
+                      
+                        <div class="outer">
+                          <div class="inner">
+                            <img class="lousPic" id="lois2" src="img/Lois.png">
+                          </div>
+                        </div>
+                      
+                        <div class="outer">
+                          <div class="inner">
+                             <img class="lousPic" id="lois3" src="img/Lois.png">
+                          </div>
+    
+                        </div>
+                      
                       </div>
-                    </div>
-                  
-                    <div class="outer">
-                      <div class="inner">
-                        <img  lass="lousPic" id="lois2" src="img/Lois.png">
-                      </div>
-                    </div>
-                  
-                    <div class="outer">
-                      <div class="inner">
-                         <img class="lousPic" id="lois3" src="img/Lois.png">
-                      </div>
-
-                    </div>
-                  
-                  </div>
-                  <div class="row">
-                    <div class="outer">
-                      <div class="inner">
-                        <img class="lousPic" id="lois4" src="img/Lois.png">
-                      </div>
-                    </div>
-                  
-                    <div class="outer">
-                      <div class="inner">
-                         <img class="lousPic" id="lois5" src="img/Lois.png">
-                      </div>
-                    </div>
-                  
-                    <div class="outer">
-                      <div class="inner">
-                            <img class="lousPic" id="lois6" src="img/Lois.png">
-                      </div>
-                    </div>
-
-             <div class="footer">
-                    <button class="start-game-button" id="startNewGameButton">Start new game</button>
-                    <span class="time-left-container">
-                        Time Left:
-                        <span id="timeLeft">25</span>
-                    </span>
-             </div>
-      </div>
+                      <div class="row">
+                        <div class="outer">
+                          <div class="inner">
+                            <img class="lousPic" id="lois4" src="img/Lois.png">
+                          </div>
+                        </div>
+                      
+                        <div class="outer">
+                          <div class="inner">
+                             <img class="lousPic" id="lois5" src="img/Lois.png">
+                          </div>
+                        </div>
+                      
+                        <div class="outer">
+                          <div class="inner">
+                                <img class="lousPic" id="lois6" src="img/Lois.png">
+                          </div>
+                        </div>
+    
+                 <div class="footer">
+                        <button class="start-game-button" id="startNewGameButton">Start new game</button>
+                        <button class="start-game-button" id="stopGameButton">Stop</button>
+                        <span class="time-left-container">
+                            Time Left:
+                            <span id="timeLeft">25</span>
+                        </span>
+                        <button class="start-game-button exit-game-button" id="exitGameButton">Exit</button>
+                 </div>
+           </div>
+          </div>
+           <div id="inactive-game-container">
+                <div class="row">
+                   <button class="start-playing-button" id="startNewGameButtonInitial">Play!</button>
+                   <img class="lousPicWelcome" src="img/Lois.png">
+                </div>
+           </div>
+            
     </body>
 </html>

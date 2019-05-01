@@ -3,6 +3,10 @@ html, body
     height: 100%;
 }
 
+#active-game-container {
+    display: none;
+}
+
 .app-header {
     font-family: 'VT323', monospace;
     font-size: 100px;
@@ -37,6 +41,21 @@ html, body
     color:black;
 }
 
+.start-playing-button {
+    font-family: 'VT323', monospace;
+    margin: 150px 100px 0;
+    background: #eab809d6;
+    border: 1px solid #eab809d6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    float:left;
+}
+
 .start-game-button {
     font-family: 'VT323', monospace;
     margin: 20px 100px 0;
@@ -50,6 +69,10 @@ html, body
     font-weight: bold;
     cursor: pointer;
     float:left;
+}
+
+.exit-game-button {
+    float: right;
 }
 
 .row {
@@ -87,6 +110,13 @@ html, body
     position: relative;
     top: 100%;
     animation: popup 1.5s infinite;
+    display: none;
+}
+
+.lousPicWelcome {
+    height: auto;
+    width: 100px;
+    margin-top: 80px;
 }
 
 .points-container {
@@ -115,7 +145,7 @@ html, body
     }
   }
 
-  #lois1 {
+  /* #lois1 {
     animation-delay: 4s;
   }
     
@@ -132,8 +162,5 @@ html, body
       animation-delay: 3s;
   }
       #lois6 {
-      animation-delay: 10s;
-  }  
-      #sandshrew { 
-      animation-delay: 0.25567675785758s;
-  }
+      animation-delay: 7s;
+  }   */
