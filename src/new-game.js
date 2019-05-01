@@ -4,6 +4,7 @@ export class NewGame {
        startTheDamnCountdown();
        var points = 0;
        var timeLeft= 25;
+       document.getElementById('points').innerHTML = 0;
 
        const loisPic1 = document.getElementById('lois1');
        loisPic1.addEventListener('click', function() { killedLois(1); }, false);
@@ -22,11 +23,11 @@ export class NewGame {
             points+=1;
             document.getElementById('points').innerHTML = points;
 
-            // document.getElementById('lois' + picNumber).src = ('img/bloodyLois.png');
+            document.getElementById('lois' + picNumber).src = ('img/bloodyLois.png');
         
-            // setTimeout(function(){
-            //    document.getElementById('lois' + picNumber).src = ('img/Lois.png');
-            // }, 1000);
+            setTimeout(function(){
+               document.getElementById('lois' + picNumber).src = ('img/Lois.png');
+            }, 1000);
        };
 
         function startTheDamnCountdown(){
