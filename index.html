@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Family Guy Whac-A-Mole</title>
+    <link rel="stylesheet" type="text/css" href="style/Style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="./dist/main.js"></script>
+</head>
+    <body>
+        <audio loop="loop" autoplay="autoplay" controls="controls">  
+                <source src="sounds/themeSong.mp3"/>  
+        </audio> 
+       <div class="game-container">
+            <img class="main-logo" src="img/logo.png"/>
+            <span class="app-header">The Whac-A-Mole Game</span>
+
+            <span class="points-container">
+                    Points:
+                    <span id="points">0</span>
+            </span>
+
+            <div class="row">
+                    <div class="outer">
+                      <div class="inner">
+                        <img class="lousPic" id="lois1" src="img/Lois.png">
+                      </div>
+                    </div>
+                  
+                    <div class="outer">
+                      <div class="inner">
+                        <img  lass="lousPic" id="lois2" src="img/Lois.png">
+                      </div>
+                    </div>
+                  
+                    <div class="outer">
+                      <div class="inner">
+                         <img class="lousPic" id="lois3" src="img/Lois.png">
+                      </div>
+
+                    </div>
+                  
+                  </div>
+                  <div class="row">
+                    <div class="outer">
+                      <div class="inner">
+                        <img class="lousPic" id="lois4" src="img/Lois.png">
+                      </div>
+                    </div>
+                  
+                    <div class="outer">
+                      <div class="inner">
+                         <img class="lousPic" id="lois5" src="img/Lois.png">
+                      </div>
+                    </div>
+                  
+                    <div class="outer">
+                      <div class="inner">
+                            <img class="lousPic" id="lois6" src="img/Lois.png">
+                      </div>
+                    </div>
+
+             <div class="footer">
+                    <button class="start-game-button" id="startNewGameButton">Start game</button>
+                    <span class="time-left-container">
+                        Time Left:
+                        <span id="timeLeft">25</span>
+                    </span>
+             </div>
+      </div>
+    </body>
+</html>

@@ -1,0 +1,139 @@
+html, body
+{
+    height: 100%;
+}
+
+.app-header {
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+}
+
+.game-container {
+    background-image: url("../img/background.jpg");
+    height: 100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:80px;
+    color: white;
+    text-align: center;
+}
+
+.time-left-container {
+    font-family: 'VT323', monospace;
+    margin: 20px 100px 0;
+    background: #eab809d6;
+    padding: 10px 20px;
+    display: block;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:45px;
+    float:left;
+    color:black;
+}
+
+.start-game-button {
+    font-family: 'VT323', monospace;
+    margin: 20px 100px 0;
+    background: #eab809d6;
+    border: 1px solid #eab809d6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    float:left;
+}
+
+.row {
+    border: 0px solid;
+    width: 800px;
+    height: 50px;
+    margin-left: 145px;
+    margin-right: auto;
+}
+
+.outer {
+    border: 0px solid;
+    width: 220px;
+    height: 190px;
+    margin-left: 20px;
+    float: left;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  
+  .inner {
+    background-color: black;
+    border: 2px solid;
+    width: 170px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.inner img {
+    width: auto;
+    height:300px;
+    margin-left:30px;
+    position: relative;
+    top: 100%;
+    animation: popup 1.5s infinite;
+}
+
+.points-container {
+    float:right;
+    font-family: 'VT323', monospace;
+    margin: 80px 100px 0;
+    background: #eab809d6;
+    padding: 10px 20px;
+    display: block;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:75px;
+    color:black;
+}
+
+.main-logo {
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+}
+
+@keyframes popup {
+    50% {
+      top: 10%;
+    }
+  }
+
+  #lois1 {
+    animation-delay: 4s;
+  }
+    
+  #lois2 {
+      animation-delay: 5s;
+  }
+    #lois3 {
+      animation-delay: 1s;
+  }   
+      #lois4 {
+      animation-delay: 0.5s;
+  }
+    #lois5 {
+      animation-delay: 3s;
+  }
+      #lois6 {
+      animation-delay: 10s;
+  }  
+      #sandshrew { 
+      animation-delay: 0.25567675785758s;
+  }
