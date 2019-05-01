@@ -91,6 +91,7 @@ html, body
     float: left;
     margin-right: auto;
     margin-top: 20px;
+    cursor:url(http://www.rw-designer.com/icon-view/7234.png), auto;
   }
   
   .inner {
@@ -101,6 +102,7 @@ html, body
     margin: 20px;
     border-radius: 50%;
     overflow: hidden;
+    cursor:url(http://www.rw-designer.com/icon-view/7234.png), auto;
 }
 
 .inner img {

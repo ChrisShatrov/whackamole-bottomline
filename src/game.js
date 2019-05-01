@@ -1,8 +1,6 @@
 export class Game {
 
     run() {
-        let useLouisNumber;
-        let lastHole;
         alert("Get ready, Stewie!");
         startTheDamnCountdown();
         var points = 0;
@@ -31,17 +29,20 @@ export class Game {
              points+=1;
 
              document.getElementById('points').innerHTML = points;
- 
+             // displays bloody Lois for a second
              document.getElementById('lois' + picNumber).src = ('img/bloodyLois.png');
          
              setTimeout(function(){
                 document.getElementById('lois' + picNumber).src = ('img/Lois.png');
              }, 1000);
+             // adding this here as well, which makes it harder because it makes the process faster
+             popTheHead();
         };
  
          function startTheDamnCountdown(){
             var gameEnd = setInterval(function(){
                  document.getElementById('timeLeft').innerHTML = timeLeft ;
+                 // calling this to pop her head
                  popTheHead();
                  if (timeLeft  == 0){
                      clearInterval(gameEnd);
@@ -53,19 +54,22 @@ export class Game {
              },1000);
          }
 
-        function randomLouis() {
+        // Generating a random Lois number between 1 and 6
+        function randomLois() {
             const useLouisNumber = Math.floor(Math.random() * (7 - 1) + 1);
         
+            // Making sure prev. number is not used
             if(useLouisNumber === alreadyUsed) {
-                return randomLouis();
+                return randomLois();
             }
         
             alreadyUsed = useLouisNumber;
             return useLouisNumber;
         }
-
+    
+        // popping her head and displaying it for almost a sec each time
         function popTheHead() {
-            const loisNumber = randomLouis();
+            const loisNumber = randomLois();
                              
             document.getElementById('lois' + loisNumber).style.display = "block";
             setTimeout(() => {
