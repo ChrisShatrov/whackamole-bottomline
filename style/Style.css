@@ -33,7 +33,6 @@ html, body
     background: #eab809d6;
     padding: 10px 20px;
     display: block;
-    font-size: 19px;
     text-transform: uppercase;
     font-weight: bold;
     font-size:45px;
@@ -128,7 +127,6 @@ html, body
     background: #eab809d6;
     padding: 10px 20px;
     display: block;
-    font-size: 19px;
     text-transform: uppercase;
     font-weight: bold;
     font-size:75px;
@@ -146,23 +144,3 @@ html, body
       top: 10%;
     }
   }
-
-  /* #lois1 {
-    animation-delay: 4s;
-  }
-    
-  #lois2 {
-      animation-delay: 5s;
-  }
-    #lois3 {
-      animation-delay: 1s;
-  }   
-      #lois4 {
-      animation-delay: 0.5s;
-  }
-    #lois5 {
-      animation-delay: 3s;
-  }
-      #lois6 {
-      animation-delay: 7s;
-  }   */

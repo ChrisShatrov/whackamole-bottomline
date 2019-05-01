@@ -1,0 +1,131 @@
+@media only screen and (max-width: 800px) {
+    html, body {
+        height:100%;
+        width:100%;
+    }
+
+    .app-header {
+        font-size:55px;
+        margin-top: 30px;
+        float:left;
+        text-align: center;
+    }
+
+    .game-container {
+        background-image: none;
+        background-color: #eee708;
+        background-repeat: no-repeat; 
+        background-position: center;
+        background-attachment: fixed;       
+        webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height:100%;
+        width:100%; 
+    }
+
+    .start-playing-button {
+        font-family: 'VT323', monospace;
+        margin: 150px 0;
+        background: #eab809d6;
+        border: 1px solid #eab809d6;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 75px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        float:none;
+        align-content: center;
+    }
+
+    .row {
+        border: 0px solid;
+        width: 340px;
+        height: 50px;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    
+    .outer {
+        border: 0px solid;
+        width: 90px;
+        height: 100px;
+        margin-left: 20px;
+        float: left;
+        margin-right: auto;
+        margin-top: 0px;
+        cursor:url(http://www.rw-designer.com/icon-view/7234.png), auto;
+      }
+      
+      .inner {
+        background-color: black;
+        border: 2px solid;
+        width: 80px;
+        height: 70px;
+        margin: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        cursor:url(http://www.rw-designer.com/icon-view/7234.png), auto;
+    }
+
+    .inner img {
+        width: auto;
+        height:190px;
+        margin-left:10px;
+        position: relative;
+        top: 100%;
+        animation: popup 1.5s infinite;
+        display: none;
+    }
+    
+    .points-container {
+        float:none;
+        font-family: 'VT323', monospace;
+        margin:10px;
+        background: none;
+        padding: 10px 20px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:25px;
+        color:black;
+        width: 100%;
+    }
+
+    .time-left-container {
+        font-family: 'VT323', monospace;
+        margin: 20px 145px 0;
+        background: #eab809d6;
+        padding: 10px 20px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size:25px;
+        float:left;
+        color:black;
+    }
+
+    .start-game-button {
+        font-family: 'VT323', monospace;
+        margin: 20px 145px 0;
+        background: #eab809d6;
+        border: 1px solid #eab809d6;
+        border-radius: 5px;
+        padding: 10px 20px;
+        display: block;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+        float:left;
+        text-align: center;
+    }
+
+    .footer {
+        position: relative;
+        bottom: 10;
+    }
+    
+  }
